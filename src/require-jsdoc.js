@@ -1,4 +1,4 @@
-const { builtinRules } = require('eslint/lib/unsupported-api');
+const { builtinRules } = require('eslint/use-at-your-own-risk');
 const baseRule = builtinRules.get('require-jsdoc');
 const assignIn = require('lodash.assignin');
 const get = require('lodash.get');
