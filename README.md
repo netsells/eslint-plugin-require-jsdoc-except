@@ -15,14 +15,14 @@ You'll first need to install [ESLint](http://eslint.org):
 npm install eslint --save-dev
 ```
 
-Next, install `eslint-plugin-require-jsdoc-except`:
+Next, install `@netsells/eslint-plugin-require-jsdoc-except`:
 
 ```
-npm install eslint-plugin-require-jsdoc-except --save-dev
+npm install @netsells/eslint-plugin-require-jsdoc-except --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install
-`eslint-plugin-require-jsdoc-except` globally.
+`@netsells/eslint-plugin-require-jsdoc-except` globally.
 
 ## Usage
 
@@ -31,7 +31,7 @@ Add `require-jsdoc-except` to the plugins section of your `.eslintrc` configurat
 ```json
 {
 	"plugins": [
-		"require-jsdoc-except"
+		"@netsells/require-jsdoc-except"
 	]
 }
 ```
